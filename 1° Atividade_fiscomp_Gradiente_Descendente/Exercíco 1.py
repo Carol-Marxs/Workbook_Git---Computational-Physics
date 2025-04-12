@@ -45,7 +45,7 @@ plt.show()
 # Minha primeiro modificação foi fixar epsilon = 0.01 e variar o alpha em 0.3 e 0.5. 
 # Em alpha = 0.3, a distância dos pontos é maior até chegar no mínimo da função, diminuindo assim, a quantidade de pontos, quando comparado ao alpha = 0.1.
 # Em alpha = 0.5, a distândia dos pontos ainda maior, o mínimo da função é encontrado, mas há apenas dois pontos, o incial de x0 = 5 e xf = 0.
-# Concluindo assim, que alpha controla o tamanho do passo que o ponto dá na direção oposta ao gradiente da função que está sendo minimizada.
+# Concluindo assim, que alpha controla o tamanho do passo que o ponto dar na direção oposta ao gradiente da função que está sendo minimizada.
 # Quando alpha é pequeno a convergência é mais lenta, mas mais segura e precisa. Alpha grande os passos grandes pode convergir mais rápido,
 # mas também pode saltar o mínimo, podendo assim, perder informação.
 

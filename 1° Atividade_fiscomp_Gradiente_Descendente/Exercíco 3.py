@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pylab as plt
-import math
 
 #funções
 
@@ -26,18 +25,22 @@ def gradiente_descendente(f, gra_f, x0, alpha = 0.01, epsilon = 0.001, max_iter 
 
 #parametros da questão
 
-x0 = 2 
-alpha = 0.02
-traj = gradiente_descendente(U3, grad_U3, x0, alpha)
+traj1 = gradiente_descendente(U3, grad_U3, x0 = 2, alpha = 0.12)
+traj2 = gradiente_descendente(U3, grad_U3, x0 = -2, alpha = 0.13)
 
 #parametros de plot
 
 x = np.linspace(-2, 2, 500)
 plt.plot(x, U3(x), label= 'U(x)', color= 'blue')
-plt.plot(traj, [U3(xi) for xi in traj], 'ro-', label='Trajetória')
+plt.plot(traj1, [U3(xi) for xi in traj1], 'ro-', label='Trajetória 1')
+plt.plot(traj2, [U3(xi) for xi in traj2], 'go-', label='Trajetória 2')
 plt.title('Gradiente Descendente - Exercício 3')
 plt.xlabel('x')
 plt.ylabel('U(x)')
 plt.grid()
 plt.legend()
 plt.show()
+
+
+# Mantendo os mesmos parametros do experimento 2, mas para essa função, há uma adição de 1/4 deixando o lado direito do gráfico mais "alto".
+# Também mantendo a importância da escolha de alpha. Tive a liberdade de plotar as duas trajetorias com um alpha diferente para eles, ficou interessante a visualização.
