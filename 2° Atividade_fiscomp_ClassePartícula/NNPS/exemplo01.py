@@ -1,6 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+# essa classe representa uma partícula em movimento sob a influência da gravidade
+# e permite calcular sua trajetória em um gráfico 2D. Com a partícula parando antes do zero
+# e não atravessando a linha do zero 0
 class Particula:
     def __init__(self, x_m, y_m, vx_m_s, vy_m_s, massa_kg, gravidade_g):
         self.x_m = x_m
