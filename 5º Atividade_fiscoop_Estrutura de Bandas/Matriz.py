@@ -30,3 +30,8 @@ eigenvalues, eigenvectors = np.linalg.eigh(H)
 
 print("\nEnergias (autovalores) para k =", k)
 print(np.sort(eigenvalues))
+
+
+
+#uma ideia para aumentar: n_max = 2
+# n_vals = np.arange(-n_max, n_max + 1) # Gera: [-2, -1, 0, 1, 2]
