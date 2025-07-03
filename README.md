@@ -1,1 +1,1 @@
-Este repositório é destinado ao curso de Física Computacional, ministrado pelo ([Prof. Dr. Gerson J. Ferreirat](https://github.com/gersonjferreira#gerson-j-ferreira)) para o Programa de Pós-Graduação em Física do Instituto de Física da Universidade Federal de Uberlândia.
+Este repositório é destinado ao curso de Física Computacional, ministrado pelo [Prof. Dr. Gerson J. Ferreira](https://github.com/gersonjferreira#gerson-j-ferreira) para o Programa de Pós-Graduação em Física do Instituto de Física da Universidade Federal de Uberlândia.
